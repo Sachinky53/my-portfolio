@@ -1,0 +1,157 @@
+/* Base styling */
+.hero-section {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5df4e;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.detail-text h2 {
+    font-size: 90px;
+    font-weight: 300;
+}
+
+.typed-text {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.location-text h3 {
+    font-size: 8rem;
+}
+
+.my-work-btn button {
+    margin-top: 4rem;
+    height: 90px;
+    width: 15rem;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.contact-me {
+    margin-left: 5rem;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.contact-me:hover {
+    border-bottom: 1px solid black;
+}
+
+/* Profile image styling */
+.img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Responsive styling */
+@media (max-width: 1200px) {
+    .detail-text h2 {
+        font-size: 70px;
+    }
+
+    .typed-text {
+        font-size: 5rem;
+    }
+
+    .location-text h3 {
+        font-size: 30px;
+    }
+
+    .my-work-btn button {
+        height: 70px;
+        width: 12rem;
+        font-size: 24px;
+    }
+
+    .contact-me {
+        font-size: 22px;
+        margin-left: 3rem;
+    }
+
+    .img {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .detail-text h2 {
+        font-size: 50px;
+    }
+
+    .typed-text {
+        font-size: 4rem;
+    }
+
+    .location-text h3 {
+        font-size: 25px;
+    }
+
+    .my-work-btn button {
+        height: 60px;
+        width: 10rem;
+        font-size: 20px;
+    }
+
+    .contact-me {
+        font-size: 20px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .detail-text h2 {
+        font-size: 40px;
+    }
+
+    .typed-text {
+        font-size: 3rem;
+    }
+
+    .location-text h3 {
+        font-size: 20px;
+    }
+
+    .my-work-btn button {
+        height: 50px;
+        width: 8rem;
+        font-size: 16px;
+    }
+
+    .contact-me {
+        font-size: 18px;
+    }
+
+    .img {
+        height: 150px;
+        width: 150px;
+    }
+}
